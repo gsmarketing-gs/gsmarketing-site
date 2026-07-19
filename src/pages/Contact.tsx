@@ -126,8 +126,8 @@ export default function Contact({ prefillData }: ContactProps) {
                   <span className="text-2xl">🌐</span>
                   <div>
                     <p className="font-bold text-gray-900 text-base">Territory Logistics Coverage</p>
-                    <p className="text-gray-600 text-xs sm:text-sm mt-0.5 leading-relaxed">
-                      Puducherry Union Territory, Cuddalore, Karaikal, Villupuram, Mayiladuthurai, Thanjavur, and other districts in Tamil Nadu.
+                    <p className="text-gray-600 text-xs sm:text-sm mt-0.5 leading-relaxed font-semibold text-brand-royal">
+                      Authorized distributor serving: • Puducherry (including Karaikal) • Villupuram District • Cuddalore District
                     </p>
                   </div>
                 </div>

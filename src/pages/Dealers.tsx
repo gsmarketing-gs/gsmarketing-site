@@ -61,7 +61,7 @@ export default function Dealers() {
       icon: '🚚',
       title: 'Prompt Delivery & Dispatch',
       titleTa: 'விரைவான டெலிவரி வசதி',
-      desc: 'Never stay out of stock. Our weekly transport vehicles directly service Cuddalore, Karaikal, Villupuram, Thanjavur, and other municipalities to deliver goods to your door.',
+      desc: 'Never stay out of stock. Our weekly transport vehicles directly service Puducherry (including Karaikal), Villupuram District, and Cuddalore District to deliver goods to your door.',
     },
     {
       icon: '🛡️',
@@ -72,32 +72,9 @@ export default function Dealers() {
   ];
 
   const deliveryCircuits = [
-    { area: 'Puducherry & Villupuram', targets: 'Electrical & Hardwares', frequency: 'Bi-Weekly', isSpecial: false },
-    { area: 'Cuddalore & Chidambaram', targets: 'Hardware & Builders', frequency: 'Bi-Weekly', isSpecial: false },
-    { area: 'Karaikal & Mayiladuthurai', targets: 'Electrical Shops', frequency: 'Weekly', isSpecial: false },
-    { area: 'Nagapattinam & Tiruvarur', targets: 'Wholesale & Retailers', frequency: 'Weekly', isSpecial: false },
-    { area: 'Thanjavur & Rest of Tamil Nadu', targets: 'All Authorized Dealers', frequency: 'On-Demand Daily', isSpecial: true },
-  ];
-
-  const testimonials = [
-    {
-      text: '"Before partnering with GSmarketing, we had constant stock delays with other suppliers. Their wholesale lighting items sell incredibly fast in our shop. Their weekly vehicle delivery to Cuddalore is highly reliable!"',
-      author: 'K. Selvam',
-      shop: 'Selvam Electricals, Cuddalore',
-      initials: 'KS',
-    },
-    {
-      text: '"The Bio Septic digest powder and modular electrical switch accessories have added massive monthly profit to our store. Customer feedback is excellent. GSmarketing staff are very supportive with boards and posters."',
-      author: 'M. Radhakrishnan',
-      shop: 'MR Hardwares, Puducherry',
-      initials: 'MR',
-    },
-    {
-      text: '"Their billing and exchange policies are very clear and transparent. Any mirror light damage is swapped immediately. I highly recommend taking their dealership across Thanjavur and Karaikal areas."',
-      author: 'S. Sundaram',
-      shop: 'Sri Balaji Electrical Agency, Karaikal',
-      initials: 'S',
-    },
+    { area: 'Puducherry (including Karaikal)', targets: 'Electrical, Cosmetics & Retailers', frequency: 'Weekly', isSpecial: false },
+    { area: 'Villupuram District', targets: 'Electrical & Hardwares', frequency: 'Weekly', isSpecial: false },
+    { area: 'Cuddalore District', targets: 'Hardware & Builders', frequency: 'Weekly', isSpecial: false },
   ];
 
   return (
@@ -229,46 +206,6 @@ export default function Dealers() {
                 </table>
               </div>
             </div>
-          </div>
-        </div>
-      </section>
-
-      {/* --- SUCCESS STORIES / DEALER TESTIMONIALS --- */}
-      <section className="py-20 bg-white">
-        <div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
-          {/* Header */}
-          <div className="text-center max-w-3xl mx-auto space-y-3 mb-16">
-            <span className="text-brand-electric font-bold text-xs uppercase tracking-widest block">
-              TRUSTED BY 250+ SHOPS
-            </span>
-            <h2 className="font-display font-extrabold text-2xl sm:text-4xl text-gray-900">
-              Success Stories from our Dealer Network
-              <span className="lang-tamil block text-lg sm:text-2xl font-tamil text-brand-electric mt-1">
-                டீலர்களின் உண்மை கருத்துக்கள்
-              </span>
-            </h2>
-            <div className="h-1 w-20 bg-brand-accent-orange mx-auto rounded"></div>
-          </div>
-
-          {/* Testimonial List */}
-          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
-            {testimonials.map((t, idx) => (
-              <div
-                key={idx}
-                className="p-6 bg-gray-50 rounded-2xl border border-gray-100 flex flex-col justify-between space-y-6"
-              >
-                <p className="text-gray-600 text-xs sm:text-sm italic leading-relaxed">{t.text}</p>
-                <div className="flex items-center space-x-3.5 pt-4 border-t border-gray-100">
-                  <div className="w-11 h-11 bg-brand-royal rounded-full flex items-center justify-center font-bold text-white text-sm">
-                    {t.initials}
-                  </div>
-                  <div>
-                    <p className="font-bold text-sm text-gray-900">{t.author}</p>
-                    <p className="text-xs text-gray-500">{t.shop}</p>
-                  </div>
-                </div>
-              </div>
-            ))}
           </div>
         </div>
       </section>

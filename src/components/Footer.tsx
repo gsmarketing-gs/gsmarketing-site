@@ -34,10 +34,10 @@ export default function Footer({ onPageChange }: FooterProps) {
               </div>
             </div>
             <p className="text-xs sm:text-sm text-gray-400 leading-relaxed">
-              GSmarketing is an award-winning distributor of premier electrical fittings, high-efficiency lighting, and unique consumer formulations. Partner with us for reliable wholesale supply.
+              GSmarketing is a trusted distributor of premier electrical fittings, high-efficiency lighting, and unique consumer formulations. Partner with us for reliable wholesale supply.
             </p>
             <p className="lang-tamil text-brand-accent-yellow text-xs font-tamil">
-              தமிழ்நாட்டின் முன்னணி மின்சார பொருட்கள் மொத்த விநியோகஸ்தர்.
+              புதுச்சேரி, காரைக்கால், விழுப்புரம் மற்றும் கடலூர் மாவட்டத்தின் முன்னணி மின்சார பொருட்கள் விநியோகஸ்தர்.
             </p>
           </div>
 

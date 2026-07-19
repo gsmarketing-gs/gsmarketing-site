@@ -60,7 +60,7 @@ export default function Home({ onPageChange }: HomeProps) {
     {
       q: 'Which districts do you deliver to directly?',
       qTa: 'எந்தெந்த ஊர்களுக்கு நேரடி டெலிவரி உண்டு?',
-      a: 'We offer scheduled weekly distribution dispatches to Puducherry, Cuddalore, Karaikal, Nagapattinam, Chidambaram, Mayiladuthurai, Villupuram, Thanjavur, and Tiruvarur. We also ship across entire Tamil Nadu via trusted regional transport agencies.',
+      a: 'We offer scheduled weekly distribution dispatches to Puducherry (including Karaikal), Villupuram District, and Cuddalore District.',
     },
     {
       q: 'Are these product lines covered under manufacturer warranty?',
@@ -87,7 +87,7 @@ export default function Home({ onPageChange }: HomeProps) {
             {/* Left Hero Details */}
             <div className="lg:col-span-7 space-y-6 text-center lg:text-left reveal-fade-in active">
               <div className="inline-flex items-center space-x-2 bg-brand-accent-orange/20 border border-brand-accent-orange/40 text-brand-accent-orange font-bold text-xs px-3.5 py-1.5 rounded-full tracking-wider uppercase badge-pulse">
-                <span>★ DEALERS WANTED ACROSS TAMIL NADU &amp; PUDUCHERRY ★</span>
+                <span>★ DEALERS WANTED IN PUDUCHERRY, VILLUPURAM &amp; CUDDALORE ★</span>
               </div>
 
               <h1 className="font-display font-extrabold text-4xl sm:text-5xl lg:text-6xl tracking-tight leading-tight">
@@ -102,7 +102,7 @@ export default function Home({ onPageChange }: HomeProps) {
                 <strong className="text-brand-accent-yellow">MALANO APPLE Hair Color</strong> alongside electricals, power solutions, and biotech down-lines.
               </p>
               <p className="lang-tamil text-brand-electric font-tamil text-sm sm:text-base max-w-2xl mx-auto lg:mx-0">
-                ஜிஎஸ் மார்க்கெட்டிங்: தமிழ்நாட்டின் முன்னணி விநியோகஸ்தர் மற்றும் டீலர் நெட்வொர்க் நிறுவனம். எங்களின் முதன்மை திட்டமான{' '}
+                ஜிஎஸ் மார்க்கெட்டிங்: புதுச்சேரி, காரைக்கால், விழுப்புரம் மற்றும் கடலூர் மாவட்டத்தின் முன்னணி விநியோகஸ்தர் மற்றும் டீலர் நெட்வொர்க் நிறுவனம். எங்களின் முதன்மை திட்டமான{' '}
                 <strong className="text-brand-accent-yellow">மாலானோ ஆப்பிள் ஹேர் கலர் (MALANO APPLE Hair Color)</strong> டீலர்ஷிப் உரிமைகளை உங்கள் பகுதியில் பெற இன்றே தொடர்பு கொள்ளுங்கள்!
               </p>
 
@@ -189,8 +189,8 @@ export default function Home({ onPageChange }: HomeProps) {
       <div className="bg-brand-accent-yellow text-slate-950 py-3 overflow-hidden border-y border-brand-accent-yellow/50 relative z-20">
         <div className="flex whitespace-nowrap animate-infinite-scroll">
           <div className="flex space-x-12 text-sm font-extrabold uppercase tracking-widest">
-            <span>★ NOW APPOINTING DEALERS Across Tamil Nadu &amp; Puducherry ★</span>
-            <span className="lang-tamil font-tamil">★ தமிழகம் மற்றும் புதுச்சேரியில் டீலர்கள் தேவை ★</span>
+            <span>★ NOW APPOINTING DEALERS IN PUDUCHERRY, VILLUPURAM &amp; CUDDALORE ★</span>
+            <span className="lang-tamil font-tamil">★ புதுச்சேரி, விழுப்புரம் மற்றும் கடலூரில் டீலர்கள் தேவை ★</span>
             <span>★ JOIN MALANO APPLE NETWORK ★</span>
             <span className="lang-tamil font-tamil">★ மலானோ ஆப்பிள் டீலராக சேருங்கள் ★</span>
             <span>★ WHOLESALE SUPPLY AVAILABLE ★</span>
@@ -199,8 +199,8 @@ export default function Home({ onPageChange }: HomeProps) {
             <span className="lang-tamil font-tamil">★ தரமான பொருட்கள் ★</span>
           </div>
           <div className="flex space-x-12 text-sm font-extrabold uppercase tracking-widest ml-12">
-            <span>★ NOW APPOINTING DEALERS Across Tamil Nadu &amp; Puducherry ★</span>
-            <span className="lang-tamil font-tamil">★ தமிழகம் மற்றும் புதுச்சேரியில் டீலர்கள் தேவை ★</span>
+            <span>★ NOW APPOINTING DEALERS IN PUDUCHERRY, VILLUPURAM &amp; CUDDALORE ★</span>
+            <span className="lang-tamil font-tamil">★ புதுச்சேரி, விழுப்புரம் மற்றும் கடலூரில் டீலர்கள் தேவை ★</span>
             <span>★ JOIN MALANO APPLE NETWORK ★</span>
             <span className="lang-tamil font-tamil">★ மலானோ ஆப்பிள் டீலராக சேருங்கள் ★</span>
             <span>★ WHOLESALE SUPPLY AVAILABLE ★</span>
@@ -229,7 +229,7 @@ export default function Home({ onPageChange }: HomeProps) {
                 </h2>
                 <p className="text-blue-100 text-sm sm:text-base max-w-2xl">
                   We are now appointing exclusive regional dealers and wholesale stockists for the premium{' '}
-                  <strong className="text-brand-accent-yellow">MALANO APPLE Hair Color</strong> across Tamil Nadu &amp; Puducherry. This high-margin, premium ammonia-free formulation is in massive demand. Secure your exclusive local territory today!
+                  <strong className="text-brand-accent-yellow">MALANO APPLE Hair Color</strong> across Puducherry (including Karaikal), Villupuram District, and Cuddalore District. This high-margin, premium ammonia-free formulation is in massive demand. Secure your exclusive local territory today!
                 </p>
                 <p className="lang-tamil text-brand-accent-yellow font-tamil text-xs sm:text-sm">
                   அமோனியா இல்லாத, பாதுகாப்பான மாலானோ ஆப்பிள் ஹேர் கலர் தயாரிப்புகளை உங்கள் பகுதியில் மொத்தமாக விற்பனை செய்ய பிரத்தியேக டீலர்ஷிப் வாய்ப்பு!
@@ -355,7 +355,7 @@ export default function Home({ onPageChange }: HomeProps) {
               <div>
                 <div className="aspect-video w-full rounded-xl overflow-hidden mb-5 bg-gray-100">
                   <img
-                    src="/images/products/tube-lights.svg"
+                    src="https://images.unsplash.com/photo-1540931910681-dcf10160b7d6?auto=format&fit=crop&w=800&q=80"
                     alt="Tube Lights Wholesale"
                     className="w-full h-full object-cover transition-transform duration-500 group-hover:scale-105"
                   />
@@ -417,7 +417,7 @@ export default function Home({ onPageChange }: HomeProps) {
               <div>
                 <div className="aspect-video w-full rounded-xl overflow-hidden mb-5 bg-gray-100">
                   <img
-                    src="/images/products/led-lights.svg"
+                    src="https://images.unsplash.com/photo-1620714223084-8fcacc6dfd8d?auto=format&fit=crop&w=800&q=80"
                     alt="Inverters &amp; Power Solutions"
                     className="w-full h-full object-cover transition-transform duration-500 group-hover:scale-105"
                   />
@@ -504,7 +504,7 @@ export default function Home({ onPageChange }: HomeProps) {
                 </span>
               </h3>
               <p className="text-orange-50 text-xs sm:text-sm">
-                Securing exclusive local territories with high-margin returns. Authorized wholesale supply directly to your doorstep in Tamil Nadu &amp; Puducherry.
+                Securing exclusive local territories with high-margin returns. Authorized wholesale supply directly to your doorstep in Puducherry, Villupuram District, and Cuddalore District.
               </p>
             </div>
             <div>
@@ -542,7 +542,7 @@ export default function Home({ onPageChange }: HomeProps) {
                 GSmarketing is not just a distributor; we are your growth companion. We provide complete logistic assistance, quick-dispatch delivery across all major blocks, and marketing tools to scale your business.
               </p>
               <p className="lang-tamil text-gray-600 font-tamil text-xs sm:text-sm">
-                தமிழகத்தின் அனைத்து மாவட்டங்களிலும் உள்ள எலக்ட்ரிக்கல் கடைகள், ஹார்டுவேர் கடைகளுக்கு சிறந்த முறையில் சப்ளை செய்கிறோம்.
+                புதுச்சேரி, காரைக்கால், விழுப்புரம் மற்றும் கடலூர் மாவட்டங்களில் உள்ள எலக்ட்ரிக்கல் கடைகள், ஹார்டுவேர் கடைகளுக்கு சிறந்த முறையில் சப்ளை செய்கிறோம்.
               </p>
             </div>
 
@@ -568,7 +568,7 @@ export default function Home({ onPageChange }: HomeProps) {
                   <span className="lang-tamil block text-xs font-tamil text-brand-royal mt-0.5">விரைவான விநியோகம்</span>
                 </h3>
                 <p className="text-gray-500 text-xs sm:text-sm">
-                  Our regional vehicles handle dispatches weekly to Puducherry, Cuddalore, Villupuram, Thanjavur, and other towns.
+                  Our regional vehicles handle dispatches weekly to Puducherry (including Karaikal), Villupuram District, and Cuddalore District.
                 </p>
               </div>
 
@@ -691,7 +691,7 @@ export default function Home({ onPageChange }: HomeProps) {
                   </p>
                   <p className="flex items-center space-x-3">
                     <span className="text-brand-electric font-bold">📍</span>
-                    <span>Serving Tamil Nadu &amp; Puducherry Entirely</span>
+                    <span>Serving Puducherry, Villupuram &amp; Cuddalore Districts</span>
                   </p>
                 </div>
               </div>

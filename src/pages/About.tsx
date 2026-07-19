@@ -47,7 +47,7 @@ export default function About({ onPageChange }: AboutProps) {
                 ESTABLISHED LEADER
               </span>
               <h2 className="font-display font-extrabold text-2xl sm:text-3xl text-gray-900 leading-tight">
-                Distributing Trust and Innovation Across South India
+                Distributing Trust and Innovation Across Our Regions
                 <span className="lang-tamil block text-lg sm:text-xl font-tamil text-brand-royal mt-1">
                   நம்பகமான மற்றும் தரமான விநியோக சேவை
                 </span>
@@ -57,7 +57,7 @@ export default function About({ onPageChange }: AboutProps) {
               <div className="text-gray-600 text-xs sm:text-sm space-y-4 leading-relaxed">
                 <p>
                   Founded with a core focus on establishing solid supply chain operations,{' '}
-                  <strong>GSmarketing</strong> has grown into a premier Multi-Category Distributor, Wholesale Supplier, and Dealer Network company. From our strategic central hubs, we serve cosmetics retail shops, supermarkets, department stores, fancy stores, hardware outlets, and electrical dealers across Tamil Nadu and Puducherry.
+                  <strong>GSmarketing</strong> has grown into a premier Multi-Category Distributor, Wholesale Supplier, and Dealer Network company. From our strategic central hubs, we serve cosmetics retail shops, supermarkets, department stores, fancy stores, hardware outlets, and electrical dealers across Puducherry (including Karaikal), Villupuram District, and Cuddalore District.
                 </p>
                 <p>
                   We are proud exclusive partners and distributors for the highly requested{' '}
@@ -92,7 +92,7 @@ export default function About({ onPageChange }: AboutProps) {
                 <div className="pt-4 border-t border-white/10 flex flex-col sm:flex-row gap-4 items-center justify-between">
                   <div className="text-left">
                     <p className="text-[10px] uppercase font-mono text-gray-400 tracking-wider">Direct Enquiry</p>
-                    <p className="text-xs sm:text-sm font-extrabold text-brand-accent-yellow">Tamil Nadu &amp; Puducherry</p>
+                    <p className="text-xs sm:text-sm font-extrabold text-brand-accent-yellow">Puducherry, Villupuram &amp; Cuddalore</p>
                   </div>
                   <a
                     href="dealers.html"
@@ -132,7 +132,7 @@ export default function About({ onPageChange }: AboutProps) {
                 <span className="lang-tamil block text-xs font-tamil text-brand-royal mt-0.5">எங்கள் தொலைநோக்கு</span>
               </h3>
               <p className="text-gray-500 text-xs sm:text-sm leading-relaxed">
-                To become South India's undisputed supply-chain gold standard, enabling eco-friendly architectural lighting, chemical-free sanitations, and luxury fittings to reach every neighborhood shop.
+                To become our regions' undisputed supply-chain gold standard, enabling eco-friendly architectural lighting, chemical-free sanitations, and luxury fittings to reach every neighborhood shop.
               </p>
             </div>
 

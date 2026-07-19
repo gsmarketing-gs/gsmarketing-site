@@ -68,7 +68,7 @@ export const PRODUCTS_DATA: Product[] = [
     titleTa: 'சைன் வேவ் ஹோம் இன்வெர்ட்டர்',
     code: 'GSM-INV11',
     desc: 'Intelligent Pure Sine Wave Home Inverter with multi-stage smart battery charger. Automatically cuts off under short-circuit or overload. Quiet operations.',
-    img: '/images/products/led-lights.svg',
+    img: 'https://images.unsplash.com/photo-1620714223084-8fcacc6dfd8d?auto=format&fit=crop&w=800&q=80',
     tag: 'POWER BACKUP',
     moq: '5 units'
   },
@@ -112,7 +112,7 @@ export const PRODUCTS_DATA: Product[] = [
     titleTa: 'உயர்தர டி5 டியூப் லைட்',
     code: 'GSM-LED-T5',
     desc: 'Slim integrated 4-foot LED Tube Light. Easy bracket-mount fixture, high power factor, and excellent energy savings. High-efficiency drivers.',
-    img: '/images/products/tube-lights.svg',
+    img: 'https://images.unsplash.com/photo-1610444583731-9e07f39449c7?auto=format&fit=crop&w=800&q=80',
     tag: 'PREMIUM LIGHTING',
     moq: '25 pcs'
   },
@@ -123,7 +123,7 @@ export const PRODUCTS_DATA: Product[] = [
     titleTa: 'டி8 கிளாஸ் டியூப் லைட்',
     code: 'GSM-T8G-22',
     desc: 'Super bright industrial grade glass-body LED tube light. Wide 270-degree beam angle, high resistance to high line surges.',
-    img: '/images/products/tube-lights.svg',
+    img: 'https://images.unsplash.com/photo-1540931910681-dcf10160b7d6?auto=format&fit=crop&w=800&q=80',
     tag: 'INDUSTRIAL STRENGTH',
     moq: '25 pcs'
   },
@@ -200,7 +200,7 @@ export const GALLERY_DATA: GalleryItem[] = [
     title: 'Slim T5 Tube Light Installation in Store Corridor',
     code: 'GALLERY-L02',
     desc: 'Uniform light spread across a large retail hallway using energy-efficient T5 integrated tube light fittings.',
-    img: '/images/products/tube-lights.svg',
+    img: 'https://images.unsplash.com/photo-1565814636199-ae8133055c1c?auto=format&fit=crop&w=800&q=80',
     label: 'Integrated T5 Corridor Light'
   },
   {

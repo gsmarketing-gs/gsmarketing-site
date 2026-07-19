@@ -64,7 +64,7 @@ export default function Gallery({ onPageChange, onEnquireProduct }: GalleryProps
           </h1>
           <div className="h-1 w-20 bg-brand-accent-orange mx-auto rounded"></div>
           <p className="text-gray-400 text-xs sm:text-sm max-w-2xl mx-auto leading-relaxed pt-2">
-            Take an insider look at our premium showroom mockups, high-efficiency client installations, bulk warehouses, and weekly truck supply logistics dispatches across South India.
+            Take an insider look at our premium showroom mockups, high-efficiency client installations, bulk warehouses, and weekly truck supply logistics dispatches across Puducherry, Villupuram, and Cuddalore districts.
           </p>
         </div>
       </section>
