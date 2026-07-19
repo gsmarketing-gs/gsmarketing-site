@@ -1,0 +1,8 @@
+{
+  "name": "GSmarketing",
+  "description": "GSmarketing is a premium, trusted distributor of Electrical Products and MALANO APPLE Hair Color, appointing dealers across Tamil Nadu and Puducherry. Authorized dealer opportunities for MALANO APPLE Hair Color, LED lights, electrical accessories, and bio septic digest powder.",
+  "requestFramePermissions": [],
+  "majorCapabilities": [
+    "MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"
+  ]
+}
